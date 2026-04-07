@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="dashboard">
+        <section class="dashboard__panel">
+            <h1>Employee Management System</h1>
+            <p>Select a login option to continue.</p>
+            <div class="login-cards">
+                <a class="card"  onclick="goAdmin()">
+                    <h2>Admin Login</h2>
+                    <p>Manage employees, departments, and reports.</p>
+                </a>
+                <a class="card" onclick="goEmployee()">
+                    <h2>Employee Login</h2>
+                    <p>View your profile, attendance, and tasks.</p>
+                </a>
+            </div>
+        </section>
+
+        <script>
+function goAdmin() {
+    window.location.href = "admin_login.html";
+}
+
+function goEmployee() {
+    window.location.href = "employee_login.html";
+}
+</script>
+
+    </main>
+
+
+
+</body>
+</html>
