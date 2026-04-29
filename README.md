@@ -1,5 +1,7 @@
 # Employee Management System (PHP + MySQL)
 
+video - https://youtu.be/jyqLicf3zK4
+
 This project is a simple Employee Management System with:
 - Admin and Employee login
 - Employee signup with admin approval flow
